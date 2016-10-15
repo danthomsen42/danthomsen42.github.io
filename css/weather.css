@@ -56,9 +56,21 @@ img[alt = "weather"]{
     width: auto;
        
 }
-
+#wireframe{
+    background-color: aquamarine;
+    text-align: center;
+    width: 100%;
+}
+img[alt = "wireframe"]{
+    width:100%;
+}
+a {
+    color: white;
+}
 
 footer{
     background-color: black;
+    padding-bottom: 1px;
+    padding-top: 1px;
         
 }
