@@ -42,7 +42,7 @@ img[alt = "search-bar"]{
     height: 30px;
     
 }
-div[alt = "weather-info"]{
+#info{
     background-color: black;
     color:white;
     width:100%;
