@@ -1,3 +1,12 @@
+/*Change the CSS box model*/
+html *{
+    box-sizing: border-box;
+}
+
+*:before, *:after{
+    box-sizing: border-box;
+}
+
 p{
     background-color: aqua;
     padding: 12px;
@@ -6,3 +15,6 @@ p{
     width: 200px;
 }
 
+body{
+    font-size: 24px;
+}
