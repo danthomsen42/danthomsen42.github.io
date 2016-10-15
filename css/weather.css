@@ -56,6 +56,11 @@ img[alt = "weather"]{
     width: auto;
        
 }
+#newwireframe{
+    background-color: aquamarine;
+    text-align: center;
+    width: 100%;
+}
 #wireframe{
     background-color: aquamarine;
     text-align: center;
