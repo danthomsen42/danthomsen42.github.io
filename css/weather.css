@@ -107,9 +107,9 @@ footer{
    
     #newwireframe{display: none;}
     
-    #hrly1{width: 10%; border: solid; position: absolute; color: white; top: 25%;left: 80%; background-color: grey; text-align: center;}
+    #hrly1{width: 10%; border: solid; position: absolute; color: white; top: 25%;left: 80%; background-color: grey; text-align: center; display: block;}
    
-    #hrly2{width: 10%; border: solid; position: absolute; color: white; top: 25%;left: 90%; background-color: grey; padding-bottom: 27px;text-align: center;}
+    #hrly2{width: 10%; border: solid; position: absolute; color: white; top: 25%;left: 90%; background-color: grey; padding-bottom: 27px;text-align: center;display: block}
     
     a{color:white;}
 /*    footer{clear:left; padding-left: 100%; top: 130%; color: white;}*/
