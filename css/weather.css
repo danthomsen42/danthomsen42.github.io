@@ -11,7 +11,7 @@ body{
 }
 
 
-@media screen and (min-width: 420px){
+/*@media screen and (min-width: 420px){*/
     img[alt = "search-bar"]{
     width: 100%;
     height: 30px;
@@ -88,7 +88,38 @@ footer{
     color:white;
         
 }
-@media screen and (min-width: 760px){
+    @media screen and (min-width: 660px){
+    img[alt="icon"]{width: 10%; height: 110px;}
+    
+    img[alt="weather-link"]{width: 10%; height: 100%; padding-left: 20px;}
+    
+    img[alt = "search-bar"]{width: 30%;height: 30px; position: absolute; right: 0px; }
+    
+    #info{width: 20%; height: 300px; float: left; text-align: bottom; line-height: 80px}
+   
+    img[alt = "radar"]{display: inline-block; height:inherit; width: 100%; background-color: orange; margin-bottom: 0px}
+    
+    #radar2{display: inline-block; width: 40%; height: 10%; margin-left: 5%; margin-bottom: 3px; border: solid; padding-top: 30px; background-color: orange; text-align: center;}
+    
+    img[alt = "mobilewireframe2"]{width: 30%; position: absolute; top: 146%; margin-top: 2%; height: 300px; left: 70%}
+    
+    #wireframe{display: none;}
+   
+    #newwireframe{display: none;}
+    
+    #hrly1{width: 10%; border: solid; position: absolute; color: white; top: 25%;left: 80%; background-color: grey; text-align: center; display: block;}
+   
+    #hrly2{width: 10%; border: solid; position: absolute; color: white; top: 25%;left: 90%; background-color: grey; padding-bottom: 27px;text-align: center;display: block}
+    
+    a{color:white;}
+/*    footer{clear:left; padding-left: 100%; top: 130%; color: white;}*/
+    img[alt = "desktop"]{position: absolute; top: 150%; left: 30.1%; width: 40%}
+    
+    img[alt = "mobilewireframe1"]{background-color: aquamarine; text-align: center; width: 20%; height: 20%; display:none; margin-left: 5%; margin-top: 0%; margin-bottom: 2%; position: absolute; top: 150%; right: 80%}
+    
+    img[alt = "ipad"]{position:absolute; top: 150%; width: 30%; left: 0%}
+    }
+@media screen and (min-width: 960px){
     img[alt="icon"]{width: 10%; height: 110px;}
     
     img[alt="weather-link"]{width: 10%; height: 100%; padding-left: 20px;}
