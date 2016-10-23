@@ -72,10 +72,19 @@ img[alt = "weather"]{
 #wireframe{
     background-color: aquamarine;
     text-align: center;
+    width: 50%;
+}
+img[alt = "mobilewireframe1"]{
+    width:100%;
+}
+img[alt= "mobilewireframe2"]{
     width: 100%;
 }
-img[alt = "mobilewireframe"]{
-    width:100%;
+img[alt = "ipad"]{
+    width: 100%;
+}
+img[alt= "desktop"]{
+    width: 100%;
 }
 a{
     color: white;
