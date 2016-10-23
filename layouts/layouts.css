@@ -1,0 +1,44 @@
+html *{
+    box-sizing: border-box;
+}
+
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+header{
+    border: solid;
+    text-align: center;    
+    
+}
+
+nav{
+    text-align: left;
+    width: 20%;
+    height: 500px;
+    border: solid;
+    display: inline-block;
+    float: left;
+    text-align: 
+    
+}
+main{
+    border: solid;
+    width: 50%;
+    display: inline-block;
+   
+}
+aside{
+    border: solid;
+    width: 20%;
+    display: inline-block;
+   float: right;
+}
+body{
+    font: 20px "times new roman", times, serif;
+    margin: 0;
+    padding: 0;
+}
+footer{
+    clear: left;
+}

@@ -18,3 +18,14 @@ p{
 body{
     font-size: 24px;
 }
+#wrapper{
+    width: 95%;
+    margin: 0 auto;
+}
+/*<--put_in_media_queery-->
+
+put smaller screen first as default, then larger pages*/
+nav{
+   display:none; 
+}
+

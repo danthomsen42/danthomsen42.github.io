@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Practice File</title>
+    <title>Presentation</title>
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" type="text/css" href="../css/presentation.css" media="screen">
 </head>
@@ -11,20 +11,64 @@
 <body>
     <div id="wrapper">
         <header>
-            <h1>CIT 230</h1>
+            <h1>CIT 230 Presentations</h1>
         </header>
         <nav>
             <h2>Navigation Here <br></h2>
+            Here, in the Navigation area, I am demonstrating  what using desendent selectors do and don't do.<br>
+            As you can see, "Back to Home" is in a box all on its own. Now here is an example of the CSS code: <br>
+            nav ul p{<br>
+    background-color: aqua;<br>
+    padding: 5px;<br>
+    border: 5px dashed #000000;<br>
+    margin: 5px;<br>
+    width: 200px;
+<br>} <br>
+            Notice how the definition of the CSS includes "nav", "ul" and "p" are one after the other. That says<br>that only "p" individuals who are desendants of "ul" who are desendants of "nav" will recieve this<br>specific treatment. "Back to Home" meets those requirements, where as "Homework Links" do not.
             <ul><li><p><a href="https://danthomsen42.github.io/">Back to Home</a></p></li>
                 <li><a href="/homework-links.html">Homework Links</a></li></ul>
         </nav>
         <main>
             <h2>Pictures</h2>
-            
+            <p> Now Look at these pictures with their wonderful borders. Notice how the one with Link and the Dog,<br> and the Pug Fellowship both have green borders around them, and the Speeder Cats have a different <br>red border. That is because the green bordered pictures are identified with the same attribute.
+            <br> Example codes:
+            <br> img[alt="cat"]{
+            <br>background-color: brown;
+    <br>padding: 7px;
+    <br>border: 5px dotted #010100;
+    <br>width: 500px;
+<br>}
+
+<br>img[alt="dog"]{
+    <br>padding:10px;
+    <br>background-color: chartreuse;
+    <br>border: ridge #009900;
+    <br>border-width: 10px;
+    
+<br>}
+
+            <br> Both are identified with the "alt" attribute of "dog" as opposed to "cat". Attributes are used
+            <br> to identify specific "items" with a name or type. That way those things with the same attributes
+            <br> will have the same characteristics.     
+            </p>
             <img alt="dog" src="/images/deku_dog.jpg">
             <img alt="cat" src="/images/cat_speeder.png">
             <img alt="dog" src="/images/middleearthpugs.jpg">
             <h2>Lyrics</h2>
+           <p>
+                Now Children, are perhaps one of the most picky of these Selectors. They only apply 
+            <br>to the direct desendants of these "items" and to nothing and no one else.<br> 
+            Example:<br>
+            <br>main>ul>li>ul{
+    <br>background-color: blueviolet;
+    <br>border: 5px dashed #809900;
+    <br>padding: 5px;
+    <br>margin: 5px;
+    <br>width: 200px;
+               <br>}
+             <br> As you can see, only those very specific lines are shaded, and not any of the others.<br>
+               They are easily identifiable by ">" down the "ancestral line".
+            </p>
             <ul>
                 <li>Is this the real life?</li>
                 <li>Is this just fantasy?</li>
