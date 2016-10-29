@@ -22,7 +22,87 @@ body {
     text-align: center;
     
 }
+  img[alt = "search-bar"]{
+    width: 100%;
+    height: 30px;
+}
 
+img[alt="icon"]{
+   width: 26.1%;
+    height: 180px;
+    margin: 0px;
+    
+}
+img[alt = "weather-link1"]{
+    width: 35%;
+/*    height: 75px;*/
+    padding: 0px;
+    margin: 0px;
+    display: inline;
+}
+
+img[alt = "weather-link2"]{
+    width: 35%;
+/*    height: px;*/
+    padding: 0px;
+    margin: 0px;
+    display: inline;
+}
+body{
+    font-size: 24px;
+}
+
+    #radar2{background-color: orange;}
+img[alt = "radar"]{display: inline-block; height:inherit; width: 100%; background-color: orange; margin-bottom: 0px;}
+#info{
+    background-color: black;
+    color:white;
+    width:100%;
+    text-align: center;
+     align-content: center;
+     align-self: center;
+}
+img[alt = "weather"]{
+    text-align: center;
+    height: 50px;
+    width: auto;
+       
+}
+    #hrly1{display: none}
+    #hrly2{display: none}
+#newwireframe{
+    background-color: aquamarine;
+    text-align: center;
+    width: 100%;
+}
+#wireframe{
+    background-color: aquamarine;
+    text-align: center;
+    width: 100%;
+}
+img[alt = "mobilewireframe1"]{
+    width:100%;
+}
+img[alt= "mobilewireframe2"]{
+    width: 100%;
+}
+img[alt = "ipad"]{
+    width: 100%;
+}
+img[alt= "desktop"]{
+    width: 100%;
+}
+a{
+    color: white;
+}
+
+footer{
+    background-color: black;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    color:white;
+        
+}
 @media screen and (min-width: 660px) {
     .hd{
         display: flex;  
