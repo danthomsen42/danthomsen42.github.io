@@ -35,7 +35,7 @@ img[alt="icon"]{
 }
 img[alt = "weather-link1"]{
     width: 35%;
-/*    height: 75px;*/
+    height: 100%;
     padding: 0px;
     margin: 0px;
     display: inline;
@@ -43,7 +43,7 @@ img[alt = "weather-link1"]{
 
 img[alt = "weather-link2"]{
     width: 35%;
-/*    height: px;*/
+    height: 100%;
     padding: 0px;
     margin: 0px;
     display: inline;
