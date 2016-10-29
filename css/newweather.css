@@ -103,7 +103,7 @@ footer{
     color:white;
         
 }
-@media screen and (min-width: 660px) {
+@media screen and (min-width: 1000px) {
     .hd{
         display: flex;  
         align-content: flex-start;
@@ -140,7 +140,7 @@ footer{
     .frank{
         display: flex;
         width: 15%;
-        height: 270px;
+        height: 390px;
         line-height: 40px;
         background-color: black;
         color: white;
@@ -200,7 +200,7 @@ footer{
         display: flex;
 /*        flex-wrap: wrap;*/
         width: 100%;
-        height: 270px;
+/*        height: 270px;*/
         border: solid;
         color: white;
         background-color: grey;
