@@ -112,14 +112,14 @@ footer{
     }
     
     img[alt="icon"]{
-        width: 15%;
+        width: 10%;
         height: 100%;
     }
     img[alt="weather-link1"] {
-       width: 75%;
+       width: 55%;
     }
     img[alt="weather-link2"] {
-       width: 75%;
+       width: 55%;
     }
     
     img[alt="search-bar"] {
