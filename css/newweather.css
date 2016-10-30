@@ -98,6 +98,7 @@ img[alt="weather"] {
     
 }
 
+
 #frame{
     width: 100%;
     background-color: aquamarine;
@@ -115,7 +116,9 @@ footer {
 }
 
 .wireframes{
+    display: flex;
     width: 100%;
+    flex-flow: column;
 }
 /**********************IPAD***************************/
 
@@ -188,11 +191,13 @@ footer {
         padding-top: 1px;
         color: white;
     }
-    img[alt="mobilewireframe2"] {
-        
-        margin-top: 2%;
-        height: 300px;
+    .wireframes{
+        display: flex;
+/*        flex: column;*/
+        flex-flow: column;
+        width:100%;
     }
+  
     #frame {
         display: none;
     }
@@ -322,6 +327,7 @@ footer {
         border: solid;
         color: white;
         background-color: grey;
+       
     }
     #hrly1 {
         display: flex;
@@ -340,14 +346,15 @@ footer {
     a {
         color: white;
     }
+   
     img[alt="desktop"] {
-      
+      display:flex;
     }
     img[alt="mobilewireframe1"] {
-       
+       display: flex;
         background-color: aquamarine;
     }
     img[alt="ipad"] {
-       
+       display: flex;
     }
 }
