@@ -1,3 +1,5 @@
+/********************MOBILE***************************/
+
 html * {
     box-sizing: border-box;
 }
@@ -9,10 +11,10 @@ body {
 
 *:before,
 *:after {
-/*    box-sizing: border-box;*/
+    /*    box-sizing: border-box;*/
 }
-#alert {
 
+#alert {
     background-color: indianred;
     padding: 1px;
     border: 5px solid #000000;
@@ -20,20 +22,20 @@ body {
     width: 100%;
     color: white;
     text-align: center;
-    
 }
-  img[alt = "search-bar"]{
+
+img[alt="search-bar"] {
     width: 100%;
     height: 30px;
 }
 
-img[alt="icon"]{
-   width: 26.1%;
+img[alt="icon"] {
+    width: 26.1%;
     height: 110%;
     margin: 0px;
-    
 }
-img[alt = "weather-link1"]{
+
+img[alt="weather-link1"] {
     width: 35%;
     height: 100%;
     padding: 0px;
@@ -41,105 +43,128 @@ img[alt = "weather-link1"]{
     display: inline;
 }
 
-img[alt = "weather-link2"]{
+img[alt="weather-link2"] {
     width: 35%;
     height: 100%;
     padding: 0px;
     margin: 0px;
     display: inline;
 }
-body{
+
+body {
     font-size: 24px;
 }
 
-    #radar2{background-color: orange;}
-img[alt = "radar"]{display: inline-block; height:inherit; width: 100%; background-color: orange; margin-bottom: 0px;}
-#info{
-    background-color: black;
-    color:white;
-    width:100%;
-    text-align: center;
-     align-content: center;
-     align-self: center;
+#radar2 {
+    background-color: orange;
 }
-img[alt = "weather"]{
+
+img[alt="radar"] {
+    display: inline-block;
+    height: inherit;
+    width: 100%;
+    background-color: orange;
+    margin-bottom: 0px;
+}
+
+#info {
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    align-self: center;
+}
+
+img[alt="weather"] {
     text-align: center;
     height: 50px;
     width: auto;
-       
 }
-    #hrly1{display: none}
-    #hrly2{display: none}
-#newwireframe{
+
+#hrly1 {
+    display: none
+}
+
+#hrly2 {
+    display: none
+}
+
+/*#newwireframe {*/
     background-color: aquamarine;
     text-align: center;
     width: 100%;
 }
-#wireframe{
+
+/*#wireframe {*/
     background-color: aquamarine;
     text-align: center;
     width: 100%;
 }
-img[alt = "mobilewireframe1"]{
-    width:100%;
-}
-img[alt= "mobilewireframe2"]{
+
+/*img[alt="mobilewireframe1"] {*/
     width: 100%;
 }
-img[alt = "ipad"]{
+
+/*img[alt="mobilewireframe2"] {*/
     width: 100%;
 }
-img[alt= "desktop"]{
+
+/*img[alt="ipad"] {*/
     width: 100%;
 }
-a{
+
+/*img[alt="desktop"] {*/
+    width: 100%;
+}
+
+a {
     color: white;
 }
 
-footer{
+footer {
     background-color: black;
     padding-bottom: 1px;
     padding-top: 1px;
-    color:white;
-        
+    color: white;
 }
-@media screen and (min-width: 1000px) {
-    .hd{
-        display: flex;  
+
+.wireframes{
+    width: 100%;
+}
+/**********************IPAD***************************/
+
+@media screen and (min-width: 750px) {
+    .hd {
+        display: flex;
         align-content: flex-start;
         justify-content: space-between;
-        
     }
-    
-    img[alt="icon"]{
+    img[alt="icon"] {
         width: 12%;
         height: 100%;
     }
     img[alt="weather-link1"] {
-       width: 65%;
+        width: 65%;
         height: 100%;
     }
     img[alt="weather-link2"] {
-       width: 65%;
+        width: 65%;
         height: 100%;
     }
-    
     img[alt="search-bar"] {
         display: flex;
         width: 30%;
         height: 30px;
-       
     }
-    
-    
-    .center{
+    .center {
         display: flex;
         align-content: flex-start;
         justify-content: space-between;
-/*            margin-top: 10px;*/
-/*        padding-top: 10px;*/
+        /*            margin-top: 10px;*/
+        /*        padding-top: 10px;*/
     }
-    .frank{
+    .frank {
         display: flex;
         width: 15%;
         height: 390px;
@@ -150,15 +175,13 @@ footer{
         text-align: center;
         height: 270px;
         margin-top: 10px;
-/*        flex-wrap: wrap;*/
+        /*        flex-wrap: wrap;*/
     }
-    
     img[alt="sunny"] {
         display: flex;
         width: 100%;
     }
-    
-    .centerpiece{
+    .centerpiece {
         display: flex;
         width: 45%;
         height: 270px;
@@ -168,20 +191,18 @@ footer{
         text-align: center;
         flex-wrap: wrap;
     }
-    img[alt ="radar"]{
+    img[alt="radar"] {
         display: flex;
         align-self: center;
         width: 100%;
-            height: 100%
+        height: 100%
     }
-   footer {
-    background-color: black;
-    padding-bottom: 1px;
-    padding-top: 1px;
-    color: white;
+    footer {
+        background-color: black;
+        padding-bottom: 1px;
+        padding-top: 1px;
+        color: white;
     }
-
-    
     img[alt="mobilewireframe2"] {
         width: 30%;
         margin-top: 2%;
@@ -190,31 +211,28 @@ footer{
     #wireframe {
         display: none;
     }
-    #newwireframe {
-        
-    }
-    .hrs{
-      display: flex;
-    
-/*        align-self: flex-end;*/
+    #newwireframe {}
+    .hrs {
+        display: flex;
+        /*        align-self: flex-end;*/
     }
     #hrly1 {
         display: flex;
-/*        flex-wrap: wrap;*/
+        /*        flex-wrap: wrap;*/
         width: 100%;
-/*        height: 270px;*/
+        /*        height: 270px;*/
         border: solid;
         color: white;
         background-color: grey;
     }
     #hrly2 {
         display: flex;
-/*        flex-wrap: wrap;*/
+        /*        flex-wrap: wrap;*/
         width: 100%;
         border: solid;
         color: white;
         background-color: grey;
-/*        padding-bottom: 27px;*/
+        /*        padding-bottom: 27px;*/
     }
     a {
         color: white;
@@ -224,10 +242,121 @@ footer{
     }
     img[alt="mobilewireframe1"] {
         background-color: aquamarine;
+    }
+    img[alt="ipad"] {}
+}
 
+
+/*********************DESKTOP************************/
+
+@media screen and (min-width: 1000px) {
+    .hd {
+        display: flex;
+        align-content: flex-start;
+        justify-content: space-between;
     }
-    img[alt="ipad"] {
-       
+    img[alt="icon"] {
+        width: 12%;
+        height: 100%;
     }
- 
+    img[alt="weather-link1"] {
+        width: 65%;
+        height: 100%;
+    }
+    img[alt="weather-link2"] {
+        width: 65%;
+        height: 100%;
+    }
+    img[alt="search-bar"] {
+        display: flex;
+        width: 30%;
+        height: 30px;
+    }
+    .center {
+        display: flex;
+        align-content: flex-start;
+        justify-content: space-between;
+        /*            margin-top: 10px;*/
+        /*        padding-top: 10px;*/
+    }
+    .frank {
+        display: flex;
+        width: 15%;
+        height: 390px;
+        line-height: 40px;
+        background-color: black;
+        color: white;
+        align-content: center;
+        text-align: center;
+        height: 270px;
+        margin-top: 10px;
+        /*        flex-wrap: wrap;*/
+    }
+    img[alt="sunny"] {
+        display: flex;
+        width: 100%;
+    }
+    .centerpiece {
+        display: flex;
+        width: 45%;
+        height: 270px;
+        background-color: orange;
+        color: white;
+        align-self: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    img[alt="radar"] {
+        display: flex;
+        align-self: center;
+        width: 100%;
+        height: 100%
+    }
+    footer {
+        background-color: black;
+        padding-bottom: 1px;
+        padding-top: 1px;
+        color: white;
+    }
+    img[alt="mobilewireframe2"] {
+        width: 30%;
+        margin-top: 2%;
+        height: 300px;
+    }
+    #wireframe {
+        display: none;
+    }
+    #newwireframe {}
+    .hrs {
+        display: flex;
+        /*        align-self: flex-end;*/
+    }
+    #hrly1 {
+        display: flex;
+        /*        flex-wrap: wrap;*/
+        width: 100%;
+        /*        height: 270px;*/
+        border: solid;
+        color: white;
+        background-color: grey;
+    }
+    #hrly2 {
+        display: flex;
+        /*        flex-wrap: wrap;*/
+        width: 100%;
+        border: solid;
+        color: white;
+        background-color: grey;
+        /*        padding-bottom: 27px;*/
+    }
+    a {
+        color: white;
+    }
+    img[alt="desktop"] {
+        width: 40%
+    }
+    img[alt="mobilewireframe1"] {
+        background-color: aquamarine;
+    }
+    img[alt="ipad"] {}
 }
