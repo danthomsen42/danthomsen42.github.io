@@ -189,7 +189,7 @@ footer {
         color: white;
     }
     img[alt="mobilewireframe2"] {
-        width 100%;
+        
         margin-top: 2%;
         height: 300px;
     }
@@ -222,14 +222,14 @@ footer {
         color: white;
     }
     img[alt="desktop"] {
-      width 100%;
+      
     }
     img[alt="mobilewireframe1"] {
         background-color: aquamarine;
-        width 100%;
+       
     }
     img[alt="ipad"] {
-        width 100%;
+       
     }
 }
 
@@ -306,7 +306,7 @@ footer {
         color: white;
     }
     img[alt="mobilewireframe2"] {
-        width 100%;
+      
         margin-top: 2%;
         height: 300px;
     }
@@ -341,13 +341,13 @@ footer {
         color: white;
     }
     img[alt="desktop"] {
-       width 100%;
+      
     }
     img[alt="mobilewireframe1"] {
-        width 100%;
+       
         background-color: aquamarine;
     }
     img[alt="ipad"] {
-        width 100%;
+       
     }
 }
