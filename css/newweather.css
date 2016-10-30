@@ -318,7 +318,7 @@ footer {
     #frame {
         display: none;
     }
-    #newwireframe {}
+   
     .hrs {
         display: flex;
         /*        align-self: flex-end;*/
@@ -347,7 +347,13 @@ footer {
     a {
         color: white;
     }
-   
+     .wireframes{
+        display: flex;
+/*        flex: column;*/
+        flex-flow: column;
+        width:100%;
+    }
+  
     img[alt="desktop"] {
       display:flex;
     }
