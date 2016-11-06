@@ -36,7 +36,7 @@ img[alt="icon"] {
 }
 
 img[alt="weather-link1"] {
-    width: 35%;
+    width: 22%;
     height: 100%;
     padding: 0px;
     margin: 0px;
@@ -44,7 +44,14 @@ img[alt="weather-link1"] {
 }
 
 img[alt="weather-link2"] {
-    width: 35%;
+    width: 22%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: inline;
+}
+img[alt="weather-link3"]{
+    width: 22%;
     height: 100%;
     padding: 0px;
     margin: 0px;
@@ -137,6 +144,10 @@ footer {
         height: 100%;
     }
     img[alt="weather-link2"] {
+        width: 65%;
+        height: 100%;
+    }
+      img[alt="weather-link3"] {
         width: 65%;
         height: 100%;
     }
@@ -256,6 +267,10 @@ footer {
         height: 100%;
     }
     img[alt="weather-link2"] {
+        width: 65%;
+        height: 100%;
+    }
+       img[alt="weather-link3"] {
         width: 65%;
         height: 100%;
     }
