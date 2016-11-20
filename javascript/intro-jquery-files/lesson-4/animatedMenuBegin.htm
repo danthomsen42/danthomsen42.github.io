@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Animated Menu</title>
+	<link rel="stylesheet" href="css/animatedMenu.css">
+<!--	<script src="js/jquery-3.0.0.min.js"></script>-->
+    <!--    Will not work in the footer-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script>
+	$(function(){
+		
+        $('.navigation > li').hover(function(){
+            //This code executes when the mouse pointer hover over it (the object)
+        
+        $(this).addClass('openSesame');
+            
+        }, function(){
+            //This code executes when the mouse pointer leaves
+            
+             $(this).removeClass('openSesame');
+            
+        })
+        
+
+	})
+	</script>
+</head>
+<body>
+	<ul class="navigation">
+		<li>About Us</li>
+		<li>Services</li>
+		<li>Catalog</li>
+		<li>Blog</li>
+		<li>Contact</li>
+	</ul>
+        <!--         Use for Production Server -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
+ <!-- Use for Local Development 
+<!--  <script src="js/jquery-3.1.1.min.js"></script>-->
+</body>
+</html>
