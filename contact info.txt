@@ -1,0 +1,11 @@
+API - Allows you to get Data 
+
+Uses HTML JS/jQuery to read/parse the API data
+
+466cf68244b75172
+
+Use the Wunderground weather Logo!!!
+
+Create index.html in homework folder or make a new weather folder with your franklin and greenville pages.
+
+RJ (337) 424-0254
