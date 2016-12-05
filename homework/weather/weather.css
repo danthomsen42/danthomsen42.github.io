@@ -40,7 +40,7 @@ img[alt="icon"] {
     margin: 0px;
 }
 img[alt="search-bar"] {
-    width: 100%;
+    width: 10%;
     height: 30px;
 }
 header{
@@ -108,12 +108,12 @@ main{
         height: 100%;
         margin-right: 2%;
     }
-    img[alt="search-bar"] {
+    img[alt="search-bar"]{
 /*        display: flex;*/
     align-self: end;
 /*        float: right;*/
         top:50%;
-        width: 30%;
+        width: 10%;
         height: 30px;
 /*        margin-left: 5%;*/
         margin-left: 5%;
@@ -177,10 +177,11 @@ main{
     align-self: end;
 /*        float: right;*/
         top:50%;
-        width: 30%;
+        width: 10%;
         height: 30px;
 /*        margin-left: 5%;*/
         margin-left: 5%;
+        font-size: 2vw;
     }
     #frame{
         display: none;
