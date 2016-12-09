@@ -51,6 +51,8 @@ body{
 
 main{
     display: flex;
+    justify-content: center;
+ 
 }
 
 #tab-link:link{
@@ -61,6 +63,15 @@ main{
 }
 img[alt="GetPersonImage.jfif"]{
     width: 100%;
+}
+img[alt="temp"]{
+   width: 20%;
+    height: 50px;
+    padding: 1.5%;
+}
+img[alt="tempe"]{
+    width:20%;
+    height 80px;
 }
  #a:link{
         color: white;
