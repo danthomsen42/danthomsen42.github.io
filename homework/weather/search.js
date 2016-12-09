@@ -17,7 +17,7 @@ $('#query').keyup(function () {
                 output += '</li>';
             }
 
-            console.log(data);
+            //console.log(data);
 
         });
         $("#page-nav").on("click", "a", function (evt) {
