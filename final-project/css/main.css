@@ -1,9 +1,33 @@
+*{
+    margin: 0;
+}
 body{
     padding: 0px;
     margin: 0px;
    background-color: yellowgreen;
     color: white;
+    height: 100%;
    
+}
+.page-wrap{
+    min-height: 100%;
+    margin-bottom: -60px;
+}
+
+.page-wrap:after{
+    content: "";
+    display: block;
+}
+
+#footer-bottom, .pagewrap:after{
+    height 60px;
+}
+
+p{
+    margin: 0;
+}
+h1{
+    margin: 0;
 }
 .tabs {
   position: relative;   
@@ -43,8 +67,15 @@ body{
     height: 100%;
 }
 #footer-bottom{
-    background: black; 
+    background: black;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 60px;
+    padding: 0px;
+    margin: 0px;
 }
+
 
 main{
     display: flex;
@@ -69,6 +100,10 @@ img[alt="temp"]{
 img[alt="tempe"]{
     width:20%;
     height 80px;
+}
+img[alt="temppugs"]{
+    width:20%;
+    height: 20%;
 }
  #a:link{
         color: white;
