@@ -20,9 +20,6 @@ body{
     display: block;
 }
 
-#footer-bottom, .pagewrap:after{
-    height 60px;
-}
 
 p{
     margin: 0;
@@ -102,10 +99,7 @@ img[alt="temp"]{
     margin: 20%;
     margin-right: 20%;
 }
-img[alt="tempe"]{
-    width:20%;
-    height 80px;
-}
+
 img[alt="temppugs"]{
     width:20%;
     height: 20%;
@@ -113,3 +107,8 @@ img[alt="temppugs"]{
  #a:link{
         color: white;
     }
+.featured-video {
+	display: block;
+	width: 40%;
+	height: 20%;
+}
