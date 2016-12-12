@@ -1,10 +1,18 @@
 {
     "game1": {
         "name": "Click the Clown",
-        "description": "This is the first game I made. I simply follwed a \n" + 
-                       "good tutorial that showed me how to do it. They provided \n" +
-                       "all of the images and taught me how to implement them. You \n" +
-                       "literally just try to click the clown, and he gets faster \n" +
-                        "and faster. There is no other objective."
+        "description": "This is the first game I made. I simply follwed a \n" +
+            "good tutorial that showed me how to do it. They provided \n" +
+            "all of the images and taught me how to implement them. You \n" +
+            "literally just try to click the clown, and he gets faster \n" +
+            "and faster. There is no other objective."
+    },
+
+    "game2": {
+        "name": "Green Box",
+        "description": "This brave little green box is tuck in a cave. \n" +
+            "Help this poor little guy to escape from ground, \n" +
+            "and drip lava. Use your arrow keys and space bar to direct him"
+
     }
 }
