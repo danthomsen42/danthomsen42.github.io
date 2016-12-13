@@ -1,11 +1,12 @@
 *{
     margin: 0;
+  
 }
 
 body{
     padding: 0px;
     margin: 0px;
-   background-color: yellowgreen;
+   background-color: yellowgreen; 
     color: white;
     height: 100%;
    
@@ -13,6 +14,7 @@ body{
 .page-wrap{
     min-height: 100%;
     margin-bottom: -60px;
+
 }
 
 .page-wrap:after{
@@ -21,12 +23,12 @@ body{
 }
 
 
-p{
-    margin: 0;
+@media screen and (min-width: 660px){
 }
-h1{
-    margin: 0;
-}
+
+
+
+ @media screen and (min-width: 1033px){
 .tabs {
   position: relative;   
   min-height: 20px; 
@@ -74,16 +76,22 @@ h1{
     margin: 0px;
 }
 
-
+     h2{
+         font-size: 3em;
+     }
 main{
     display: flex;
     justify-content: center;
     padding-left: 20px;
- 
+
+    font-size: 2em;
+  
 }
 
 #tab-link:link{
     color: blue;
+    font-size: 2em;
+    
 }
 #tab-link:visited {
     color: orange;
@@ -92,8 +100,8 @@ img[alt="GetPersonImage.jfif"]{
     width: 100%;
 }
 img[alt="temp"]{
-   width: 50px;
-    height: 50px;
+   width: 100px;
+    height: 100px;
 
     margin-right: 20%;
 }
@@ -106,7 +114,8 @@ img[alt="temppugs"]{
         color: white;
     }
 .featured-video {
-	display: block;
+	display: flex;
 	width: 40%;
 	height: 20%;
+}
 }

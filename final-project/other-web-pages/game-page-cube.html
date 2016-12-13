@@ -16,7 +16,7 @@
         </h2>
     <main>
          
-        <a href="/trialgame.html"><img alt="tempe" src="/images/temp-pictures/temp1.png"></a>
+        <a href="/trialgame.html"><img alt="tempe" src="/images/temp-pictures/temp2.jpg"></a>
         
 <!--        <div>JSON DATA WILL FILL THIS SPOT FOR EACH GAME</div>-->
        
@@ -34,8 +34,8 @@
                 $.getJSON("/final-project/javascript/games.json", function(data) {
                     console.log(data);
                     
-                    $("#name").text(data.game1.name);
-                    $("#description").text(data.game1.description);
+                    $("#name").text(data.game2.name);
+                    $("#description").text(data.game2.description);
                     //$()    
                 });
             });
