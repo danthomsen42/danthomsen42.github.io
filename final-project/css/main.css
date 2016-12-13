@@ -1,121 +1,155 @@
-*{
+* {
     margin: 0;
-  
 }
 
-body{
+body {
     padding: 0px;
     margin: 0px;
-   background-color: yellowgreen; 
+    background-color: yellowgreen;
     color: white;
     height: 100%;
-   
 }
-.page-wrap{
+
+.page-wrap {
     min-height: 100%;
     margin-bottom: -60px;
-
 }
 
-.page-wrap:after{
+.page-wrap:after {
     content: "";
     display: block;
 }
 
-
-@media screen and (min-width: 660px){
+#tab-link:link {
+    color: blue;
+    font-size: 1em;
 }
 
-
-
- @media screen and (min-width: 1033px){
-.tabs {
-  position: relative;   
-  min-height: 20px; 
-  clear: both;
-  margin: 25px 0;
-    display: flex;
+#tab-link:visited {
+    color: orange;
 }
+
 .tab {
-  float: left;
+    float: left;
 }
+
 .tab label {
-  background: yellow; 
-  padding: 10px; 
-  border: 1px solid #ccc; 
-  margin-left: -1px; 
-  position: relative;
-  left: 1px; 
+    background: yellow;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-left: -1px;
+    position: relative;
+    left: 1px;
+    margin-top: 10px;
 }
+
 .tab [type=radio] {
-  display: none;   
+    display: none;
 }
 
 [type=radio]:checked ~ label {
-  background: white;
-  border-bottom: 1px solid #ccc;
-  z-index: 2;
+    background: white;
+    border-bottom: 1px solid #ccc;
+    z-index: 2;
 }
+
 [type=radio]:checked ~ label ~ .content {
-  z-index: 1;
+    z-index: 1;
 }
-#header-top{
-    padding: 0;
+
+#header-top {
+    padding-bottom: 10%;
     margin-top: 0;
     background: green;
     width: 100%;
     height: 100%;
 }
-#footer-bottom{
-    background: black;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    height: 60px;
-    padding: 0px;
-    margin: 0px;
+#header-name{
+    margin-bottom: 20%;
 }
-
-     h2{
-         font-size: 3em;
-     }
+h2 {
+    font-size: 1.8em;
+}
+#footer-bottom {
+        background: black;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        height: 60px;
+        padding: 0px;
+        margin: 0px;
+}
 main{
-    display: flex;
-    justify-content: center;
-    padding-left: 20px;
-
-    font-size: 2em;
-  
+    font-size: 1.5em;
 }
+img[alt="temp"] {
+        width: 100px;
+        height: 100px;
+        margin-right: 20%;
+    }
+@media screen and (min-width: 660px) {}
 
-#tab-link:link{
-    color: blue;
-    font-size: 2em;
+@media screen and (min-width: 1033px) {
+    .tabs {
+        position: relative;
+        min-height: 20px;
+        clear: both;
+        margin: 25px 0;
+        display: flex;
+    }
+    #header-top {
+        padding: 0;
+        margin-top: 0;
+        background: green;
+        width: 100%;
+        height: 100%;
+    }
     
-}
-#tab-link:visited {
-    color: orange;
-}
-img[alt="GetPersonImage.jfif"]{
-    width: 100%;
-}
-img[alt="temp"]{
-   width: 100px;
-    height: 100px;
-
-    margin-right: 20%;
-}
-
-img[alt="temppugs"]{
-    width:20%;
-    height: 20%;
-}
- #a:link{
+    
+    h2 {
+        font-size: 3em;
+        margin: 0;
+    }
+    #tab-link:link {
+        color: blue;
+        font-size: 2em;
+    }
+    main {
+        display: flex;
+        justify-content: center;
+        padding-left: 20px;
+        font-size: 2em;
+    }
+    img[alt="GetPersonImage.jfif"] {
+        width: 100%;
+    }
+    img[alt="temp"] {
+        width: 100px;
+        height: 100px;
+        margin-right: 20%;
+    }
+    img[alt="temppugs"] {
+        width: 20%;
+        height: 20%;
+    }
+    #a:link {
         color: white;
     }
-.featured-video {
-	display: flex;
-	width: 40%;
-	height: 20%;
+    .featured-video {
+        display: flex;
+        width: 40%;
+        height: 20%;
+    }
 }
+#footer-bottom {
+        background: black;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        height: 60px;
+        padding: 0px;
+        margin: 0px;
+}
+#header-name{
+    margin: 0;
 }
