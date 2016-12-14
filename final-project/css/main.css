@@ -222,8 +222,8 @@ img[alt="wireframes"]{
     }
 */
     img[alt="tempe"] {
-        width 30%;
-        height: 80%;
+        width: 100%;
+        height: 100%;
     }
     img[alt="temppugs"] {
         width: 20%;
@@ -249,4 +249,5 @@ img[alt="wireframes"]{
 }
 #header-name{
     margin: 0;
+}
 }
