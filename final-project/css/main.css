@@ -83,6 +83,8 @@ h2 {
 main{
     font-size: 1em;
     margin-bottom: 20%;
+    margin-left: 5px;
+    margin-right: 5px;
    
 /*    padding-bottom: 100%;*/
 }
@@ -141,6 +143,8 @@ img[alt="wireframes"]{
         justify-content: center;
         padding-left: 20px;
         font-size: 2em;
+        margin-left: 5px;
+    margin-right: 5px;
     }
     img[alt="GetPersonImage.jfif"] {
         width: 100%;
@@ -210,6 +214,8 @@ img[alt="wireframes"]{
         justify-content: center;
         padding-left: 20px;
         font-size: 2em;
+        margin-left: 5px;
+    margin-right: 5px;
     }
     img[alt="GetPersonImage.jfif"] {
         width: 100%;
