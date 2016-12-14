@@ -96,6 +96,14 @@ img[alt="temp"] {
         width: 100%;
         height: 60%;
     }
+img[alt="wireframes"]{
+    width:50%;
+    height: 50%;
+}
+#ftr{
+    background-color: black;
+    width: 100%;
+}
 @media screen and (min-width: 660px) {}
 
 @media screen and (min-width: 1033px) {
