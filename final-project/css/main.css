@@ -81,10 +81,14 @@ h2 {
         margin: 0px;
 }
 main{
-    font-size: 1.5em;
+    font-size: 1em;
     margin-bottom: 20%;
    
 /*    padding-bottom: 100%;*/
+}
+img[alt="tempe"]{
+    width:100px;
+    height:100px;
 }
 img[alt="temp"] {
         width: 100px;
@@ -104,8 +108,78 @@ img[alt="wireframes"]{
     background-color: black;
     width: 100%;
 }
-@media screen and (min-width: 660px) {}
+/***************************************************************************************/
+/*******************************************TABLET**************************************/
+/***************************************************************************************/
+@media screen and (min-width: 768px) {
+ .tabs {
+        position: relative;
+        min-height: 20px;
+        clear: both;
+        margin: 25px 0;
+        display: flex;
+    }
+    #header-top {
+        padding: 0;
+        margin-top: 0;
+        background: green;
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+    h2 {
+        font-size: 3em;
+        margin: 0;
+    }
+    #tab-link:link {
+        color: blue;
+        font-size: 2em;
+    }
+    main {
+        display: flex;
+        justify-content: center;
+        padding-left: 20px;
+        font-size: 2em;
+    }
+    img[alt="GetPersonImage.jfif"] {
+        width: 100%;
+    }
+    img[alt="temp"] {
+        width: 200px;
+        height: 150px;
+        margin-right: 20%;
+    }
+    img[alt="tempe"] {
+        width: 300px;
+        height: 200px;
+    }
 
+    #a:link {
+        color: white;
+    }
+    .featured-video {
+        display: flex;
+        width: 40%;
+        height: 20%;
+    }
+
+#footer-bottom {
+        background: black;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        height: 60px;
+        padding: 0px;
+        margin: 0px;
+}
+#header-name{
+    margin: 0;
+}
+}
+/*************************************************************************************/
+/*************************************DESKTOP*****************************************/
+/*************************************************************************************/
 @media screen and (min-width: 1033px) {
     .tabs {
         position: relative;
@@ -140,11 +214,13 @@ img[alt="wireframes"]{
     img[alt="GetPersonImage.jfif"] {
         width: 100%;
     }
+/*
     img[alt="temp"] {
         width: 100px;
-        height: 100px;
+        height: 80px;
         margin-right: 20%;
     }
+*/
     img[alt="tempe"] {
         width 30%;
         height: 80%;
