@@ -10,6 +10,10 @@ body {
     height: 100%;
 }
 
+img[alt="my-picture"]{
+    margin-right: 10px;
+    
+}
 .page-wrap {
     min-height: 100%;
     margin-bottom: -60px;
@@ -52,11 +56,13 @@ body {
     display: none;
 }
 
+/*
 [type=radio]:checked ~ label {
     background: white;
     border-bottom: 1px solid #ccc;
     z-index: 2;
 }
+*/
 
 [type=radio]:checked ~ label ~ .content {
     z-index: 1;
@@ -109,7 +115,7 @@ img[alt="tempe"]{
 img[alt="temp"] {
         width: 100px;
         height: 100px;
-/*        margin-right: 20%;*/
+        margin-right: 10px;
     margin-left: 0px;
     }
    .featured-video {
@@ -130,7 +136,7 @@ img[alt="wireframes"]{
     display: flex;
 }
 #hmwrk{
-  flex:inline;
+/*  flex:inline;*/
     margin-left: 10px;
     margin-right: 10px;
 }
