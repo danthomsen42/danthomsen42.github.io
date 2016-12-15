@@ -90,6 +90,9 @@ h2 {
         padding: 0px;
         margin: 0px;
 }
+#ftr-margin{
+    margin-left: 10px;
+}
 main{
     font-size: 1em;
     margin-bottom: 20%;
@@ -105,7 +108,8 @@ img[alt="tempe"]{
 img[alt="temp"] {
         width: 100px;
         height: 100px;
-        margin-right: 20%;
+/*        margin-right: 20%;*/
+    margin-left: 0px;
     }
    .featured-video {
         display: flex;
@@ -168,7 +172,8 @@ img[alt="wireframes"]{
     img[alt="temp"] {
         width: 200px;
         height: 150px;
-        margin-right: 20%;
+/*        margin-right: 20%;*/
+        margin-right: 0px;
     }
     img[alt="tempe"] {
         width: 300px;
