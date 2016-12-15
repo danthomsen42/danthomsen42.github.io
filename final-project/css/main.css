@@ -31,8 +31,13 @@ body {
 
 .tab {
     float: left;
+    
 }
-
+.tabs{
+/*    margin-left: 5px;*/
+    display: flex;
+    justify-content: center;
+}
 .tab label {
     background: yellow;
     padding: 10px;
@@ -66,11 +71,16 @@ body {
 }
 #header-name{
     margin-bottom: 10%;
+    margin-left: 5px;
 /*    position: absolute;*/
 }
 h2 {
     font-size: 1.8em;
+       margin-left: 5px;
 }
+ #ps{
+        margin-left: 10px;
+    }
 #footer-bottom {
         background: black;
 /*        position: absolute;*/
@@ -83,8 +93,8 @@ h2 {
 main{
     font-size: 1em;
     margin-bottom: 20%;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
    
 /*    padding-bottom: 100%;*/
 }
@@ -120,6 +130,8 @@ img[alt="wireframes"]{
         clear: both;
         margin: 25px 0;
         display: flex;
+     margin-left: 5px;
+     justify-content: flex-start;
     }
     #header-top {
         padding: 0;
@@ -133,6 +145,10 @@ img[alt="wireframes"]{
     h2 {
         font-size: 3em;
         margin: 0;
+           margin-left: 5px;
+    }
+     #ps{
+        margin-left: 10px;
     }
     #tab-link:link {
         color: blue;
@@ -143,8 +159,8 @@ img[alt="wireframes"]{
         justify-content: center;
         padding-left: 20px;
         font-size: 2em;
-        margin-left: 5px;
-    margin-right: 5px;
+        margin-left: 10px;
+    margin-right: 10px;
     }
     img[alt="GetPersonImage.jfif"] {
         width: 100%;
@@ -179,6 +195,7 @@ img[alt="wireframes"]{
 }
 #header-name{
     margin: 0;
+    margin-left: 5px;
 }
 }
 /*************************************************************************************/
@@ -191,6 +208,8 @@ img[alt="wireframes"]{
         clear: both;
         margin: 25px 0;
         display: flex;
+        margin-left: 5px;
+        justify-content: flex-start;
     }
     #header-top {
         padding: 0;
@@ -204,6 +223,10 @@ img[alt="wireframes"]{
     h2 {
         font-size: 3em;
         margin: 0;
+        margin-left: 5px;
+    }
+    #ps{
+        margin-left: 10px;
     }
     #tab-link:link {
         color: blue;
@@ -214,8 +237,8 @@ img[alt="wireframes"]{
         justify-content: center;
         padding-left: 20px;
         font-size: 2em;
-        margin-left: 5px;
-    margin-right: 5px;
+        margin-left: 10px;
+    margin-right: 10px;
     }
     img[alt="GetPersonImage.jfif"] {
         width: 100%;
@@ -255,5 +278,6 @@ img[alt="wireframes"]{
 }
 #header-name{
     margin: 0;
+    margin-left: 5px;
 }
 }
