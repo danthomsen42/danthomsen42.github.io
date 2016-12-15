@@ -98,6 +98,7 @@ main{
     margin-bottom: 20%;
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: 10px;
    
 /*    padding-bottom: 100%;*/
 }
@@ -124,6 +125,18 @@ img[alt="wireframes"]{
     background-color: black;
     width: 100%;
 }
+#mn{
+    display: flex;
+}
+#hmwrk{
+  flex:inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#hmwrk2{
+    margin-right: 10px;
+}
+
 /***************************************************************************************/
 /*******************************************TABLET**************************************/
 /***************************************************************************************/
@@ -165,6 +178,7 @@ img[alt="wireframes"]{
         font-size: 2em;
         margin-left: 10px;
     margin-right: 10px;
+        margin-top: 10px;
     }
     img[alt="GetPersonImage.jfif"] {
         width: 100%;
@@ -244,6 +258,7 @@ img[alt="wireframes"]{
         font-size: 2em;
         margin-left: 10px;
     margin-right: 10px;
+        margin-top: 10px;
     }
     img[alt="GetPersonImage.jfif"] {
         width: 100%;
