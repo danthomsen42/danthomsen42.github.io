@@ -125,6 +125,9 @@ img[alt="my-picture"] {
     /*    margin-bottom: 10px;*/
 }
 
+#conlink:visited{
+    color: darkblue;
+}
 #log-sign {
     background-color: #6666ff;
     width: 10%;
@@ -133,6 +136,7 @@ img[alt="my-picture"] {
     color: white;
     padding: 15px 32px;
     text-align: center;
+    cursor: pointer;
     /*    text-decoration: none;*/
     /*    display: table-column;*/
     font-size: 16px;
