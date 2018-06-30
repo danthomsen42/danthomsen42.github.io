@@ -6,34 +6,33 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" type="text/css" href="../css/main.css" media="screen">
 </head>
+
 <body onload="checkStuff()">
-    <div id="loginStuff"></div>
+    <div id="loginStuff" style="position: inline;"></div>
     <header id="header-top"></header>
-<div class="page-wrap">
-    <h2>About</h2>
-<main>
-<!--       <img alt="temppugs" src="/images/middleearthpugs.jpg">-->
-    <video src="../game-maker-studio.mp4" class="featured-video" controls preload="metadata"></video>
-         <div> This website, although still in a beta version, is <br>
-               meant to give some semblance of boredom relief. <br>
-               As for me though, I am just a Software engineering<br>
-               major that is trying to learn some web development. <br>
-          <br> Now as for the video, I know I go into almost no detail,<br> 
-               but it is just a very brief overview. </div>
-    </main>
+    <div class="page-wrap">
+        <h2>About</h2>
+        <main style="position: in-line">
+            <!--       <img alt="temppugs" src="/images/middleearthpugs.jpg">-->
+            <!--    <video src="../game-maker-studio.mp4" class="featured-video" controls preload="metadata"></video>-->
+            <div style="color: black"> Dr. Vinyl's Mission is do deliver the best repair service the world over, from vinyl to leather, to hard plastics across all industries. We come to you so you can personally see the quality we present on all of our endeavors and to provide the best customer service. 
+            <br><br><b>All of our work is 100% guaranteed and all Dr. Vinyl technicians are fully insured.</b><br><br>
+                We promise to provide the best service possible at all times and in all situations.
+            </div><img src="../P1030026.jpg" style="width: 30%; height: 15%;">
+        </main>
     </div>
-<footer id = "footer-bottom"></footer>
-       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-      <script src="../javascript/modules.js"></script>
-<!--    <script src="/"></script>-->
-        <script>
-function checkStuff(){
-    //if localStorage.email == true {
-        document.getElementById("loginStuff").innerHTML = "Hello, " + localStorage.email;
-//    alert(localStorage.email);
-    //}
-}
-</script>
+    <footer id="footer-bottom"></footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="../javascript/modules.js"></script>
+    <!--    <script src="/"></script>-->
+    <script>
+        function checkStuff() {
+            //if localStorage.email == true {
+            document.getElementById("loginStuff").innerHTML = "Hello, " + localStorage.email;
+            //    alert(localStorage.email);
+            //}
+        }
+    </script>
 </body>
 
 </html>
