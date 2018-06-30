@@ -28,7 +28,9 @@ img[alt="my-picture"] {
     color: white;
     font-size: 1em;
 }
-
+#a:visited{
+    color: white;
+}
 #tab-link:visited {
     color: white;
 }
