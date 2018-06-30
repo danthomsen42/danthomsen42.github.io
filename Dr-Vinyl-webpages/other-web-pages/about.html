@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>About | danthomsen42.github.io</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="../css/main.css" media="screen">
+</head>
+<body onload="checkStuff()">
+    <div id="loginStuff"></div>
+    <header id="header-top"></header>
+<div class="page-wrap">
+    <h2>About</h2>
+<main>
+<!--       <img alt="temppugs" src="/images/middleearthpugs.jpg">-->
+    <video src="../game-maker-studio.mp4" class="featured-video" controls preload="metadata"></video>
+         <div> This website, although still in a beta version, is <br>
+               meant to give some semblance of boredom relief. <br>
+               As for me though, I am just a Software engineering<br>
+               major that is trying to learn some web development. <br>
+          <br> Now as for the video, I know I go into almost no detail,<br> 
+               but it is just a very brief overview. </div>
+    </main>
+    </div>
+<footer id = "footer-bottom"></footer>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="../javascript/modules.js"></script>
+<!--    <script src="/"></script>-->
+        <script>
+function checkStuff(){
+    //if localStorage.email == true {
+        document.getElementById("loginStuff").innerHTML = "Hello, " + localStorage.email;
+//    alert(localStorage.email);
+    //}
+}
+</script>
+</body>
+
+</html>

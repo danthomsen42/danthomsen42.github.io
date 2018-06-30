@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Game List | danthomsen42.github.io</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="../css/main.css" media="screen">
+</head>
+<body onload="checkStuff()">
+    <div id="loginStuff" style="position: absolute; padding-top: 1%;"></div>
+    <header id="header-top"></header>
+
+    <main>
+        <div id="m1" >
+        </div>
+        <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=dlbajsnaps3pu0u7cq7hqdeu8g%40group.calendar.google.com&amp;color=%2329527A&amp;ctz=America%2FDenver" style="border-width:0" width="700" height="350" frameborder="0" scrolling="no"></iframe>
+<!--        <button onclick="myFunction()">Try it</button>-->
+        <script>
+//        document.getElementById("result").innerHTML = localStorage.getItem("email");
+//           function myFunction() {
+//            alert(localStorage.email)
+//           }
+        </script>
+    </main>
+<!--
+        <a href="/final-project/other-web-pages/game-info-page.html"><img alt="temp" src="/images/temp-pictures/temp3.jpg"></a>
+   </div>
+        <div id="m2">
+        <a href="/final-project/other-web-pages/game-info-page.html"><img alt="temp" src="/images/temp-pictures/temp4.png"></a>
+        <a href="/final-project/other-web-pages/game-info-page.html"><img alt="temp" src="/images/temp-pictures/temp5.png"></a>
+        <a href="/final-project/other-web-pages/game-info-page.html"><img alt="temp" src="/images/temp-pictures/temp6.jfif"></a>
+        </div>
+</main>
+-->
+    
+    
+    
+        <footer id = "footer-bottom" style="position:relative; bottom:0;"></footer>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="../javascript/modules.js"></script>
+<!--    <script src="/"></script>-->
+    
+    <script>
+function checkStuff(){
+    //if localStorage.email == true {
+        document.getElementById("loginStuff").innerHTML = "Hello, " + localStorage.email;
+//    alert(localStorage.email);
+    //}
+}
+</script>
+</body>
+
+</html>

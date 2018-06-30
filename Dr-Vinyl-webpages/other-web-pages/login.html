@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Contact | danthomsen42.github.io</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="../css/main.css" media="screen">
+</head>
+<body onload="checkStuff()">
+<!--    <div id="loginStuff"></div>-->
+    <header id="header-top"></header>
+
+    <main><form>
+        <h5>Log In</h5>
+        
+<input type="email" placeholder="E-mail" id="LIemail">
+        <br>
+        <input type="password" placeholder="Password" id="LIpassword"><br>
+        <button type="submit" id="LIlogin" onclick="store(); window.location.href='../other-web-pages/games-page.html'">Login</button>
+        <script>
+            function store(){
+            var x = document.getElementById("LIemail").value;
+            localStorage.email = document.getElementById("LIemail").value;
+            // document.getElementById("result").innerHTML = localStorage.getItem("email");
+            }
+            </script>    
+    </form>
+    </main>
+     <footer id = "footer-bottom"></footer>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="../javascript/modules.js"></script>
+<!--    <script src="/"></script>-->
+</body>
+
+</html>

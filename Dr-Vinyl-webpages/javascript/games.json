@@ -1,0 +1,13 @@
+{
+    "game1": {
+        "name": "Click the Clown",
+        "description": "This is the first game I made. I simply follwed a \n good tutorial that showed me how to do it. They provided \n all of the images and taught me how to implement them. You \n literally just try to click the clown, and he gets faster \n and faster. There is no other objective."
+        
+        
+    },
+"game2": {
+    "name": "Green Cube",
+    "description": "Follow the very short adventure of Green Cube as he escapes \n a lava filled cave. He has to move quickly and avoid all the obstacles. Use your arrow \n keys to move around and use your mouse to click on ?s. Some of the sources for pictures are:\n http://www.wondermondo.com/Hawaii.htm \n http://www.zmescience.com/science/geology/how-caves-form/ \n http://kuzma-prutkoff.livejournal.com/453701.html"
+}
+
+}

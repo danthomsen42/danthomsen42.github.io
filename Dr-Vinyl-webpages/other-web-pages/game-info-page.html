@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Click the Clown | danthomsen42.github.io</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="../css/main.css" media="screen">
+</head>
+
+<body onload="checkStuff()">
+    <header id="header-top"></header>
+    <!--    <script></script>-->
+<!--    <h2>TEMP JSON NAME</h2>-->
+<h2 id="name">Game
+        </h2>
+    <main>
+         
+        <a href="/trialgame.html"><picture>
+            <source srcset="/final-project/click-the-clown.jpg" media="(min-width: 900px)">
+                <source srcset="/final-project/clown-with-score.jpg" media="(min-width: 600px)">
+                <source srcset="/final-project/clown.jpg">
+                <img src="/final-project/clown.jpg" alt="temp">
+            </picture></a>
+        
+<!--        <div>JSON DATA WILL FILL THIS SPOT FOR EACH GAME</div>-->
+       
+        <p id="description"></p> 
+
+
+      
+    </main>
+
+
+    <footer id="footer-bottom"></footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script>
+            $(function () {
+                $.getJSON("/final-project/javascript/games.json", function(data) {
+                    console.log(data);
+                 
+                    $("#name").text(data.game1.name);
+                    $("#description").text(data.game1.description);
+                    //$()    
+                });
+            });
+        </script>
+    <script src="/final-project/javascript/modules.js"></script>
+    <script src="/final-project/javascript/games.json"></script>
+    <!--    <script src="/"></script>-->
+</body>
+
+</html>

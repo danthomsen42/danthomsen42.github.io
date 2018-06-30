@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Contact | danthomsen42.github.io</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="../css/main.css" media="screen">
+</head>
+
+<body onload="checkStuff()">
+    <div id="loginStuff" style="position: absolute; padding-top: 1%;"></div>
+    <header id="header-top"></header>
+    <h2></h2>
+    <main>
+        <table id="ServicesTable">
+            <tr>
+                <th> </th>
+                <th>Description</th>
+                <th>Estimated Cost*</th>
+            </tr>
+            <tr>
+                <td> <img src="../WHEEL-REFINISH-2.jpg" id="srvcPics"> </td>
+                <td id="desc">Repair the scuffs around each tire and make them look as good as new</td>
+                <td id="desc">$75 per wheel</td>            
+            </tr>
+            <tr>
+<!--                D4CCCA-->
+                <td> <img src="../UPHOLSTERY-TRUCK-BENCH-SEAT.jpg" id="srvcPics"></td>
+                <td id="desc">Re-Upholster any seat, no matter how far gone!</td>
+                <td id="desc">$10 per Sq ft</td>
+            </tr>
+          
+            <tr>
+                <td> <img src="../UPHOLSTERY-1.jpg" id="srvcPics"></td>
+                <td id="desc">Make leather and Vinyl look as good as new.</td>
+                <td id="desc">$20 for first tear,<br> $10 for every other</td>
+            </tr>
+            <tr>
+                <td> <img src="../OIL-STAIN-REMOVAL-copy.jpg" id="srvcPics"></td>
+                <td id="desc">Remove those set-in stains and bad odors</td>
+                <td id="desc">$10 per stain<br> $30 odor removal</td>
+            
+            
+            </tr>
+            
+            
+        </table>
+
+    </main>
+    <p style="color:black;">*All prices are estimated and can be modified by the Dr. Vinyl Technician due to complexity or cost of specific materials required for repair</p>
+    <footer id="footer-bottom" style="position:relative; bottom:0;"></footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="../javascript/modules.js"></script>
+    <!--    <script src="/"></script>-->
+    <script>
+        function checkStuff() {
+            //if localStorage.email == true {
+            document.getElementById("loginStuff").innerHTML = "Hello, " + localStorage.email;
+            //    alert(localStorage.email);
+            //}
+        }
+    </script>
+</body>
+
+</html>

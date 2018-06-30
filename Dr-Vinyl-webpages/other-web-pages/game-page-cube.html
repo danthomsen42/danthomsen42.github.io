@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Green Cube | danthomsen42.github.io</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="/final-project/css/main.css" media="screen">
+</head>
+
+<body>
+    <header id="header-top"></header>
+    <!--    <script></script>-->
+<!--    <h2>TEMP JSON NAME</h2>-->
+<h2 id="name">Game
+        </h2>
+    <main>
+         
+        <a href="/project-games/green-cube/index.html"><picture>
+            <source srcset="/final-project/green-cube.jpg" media="(min-width: 900px)">
+            <source srcset="/final-project/green-square-top.jpg" media="(min-width:600px)">
+            <source srcset="/final-project/green.jpg">   
+            <img alt="temp" src="/final-project/green.jpg"></picture></a>
+        
+<!--        <div>JSON DATA WILL FILL THIS SPOT FOR EACH GAME</div>-->
+       
+        <p id="description"></p> 
+
+
+      
+    </main>
+
+
+    <footer id="footer-bottom"></footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script>
+            $(function () {
+                $.getJSON("/final-project/javascript/games.json", function(data) {
+                    console.log(data);
+                    
+                    $("#name").text(data.game2.name);
+                    $("#description").text(data.game2.description);
+                    //$()    
+                });
+            });
+        </script>
+    <script src="/final-project/javascript/modules.js"></script>
+    <script src="/final-project/javascript/games.json"></script>
+    <!--    <script src="/"></script>-->
+</body>
+
+</html>

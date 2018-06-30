@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Game List | danthomsen42.github.io</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="../css/main.css" media="screen">
+</head>
+<body> <!--onload="checkStuff()">-->
+    <div id="loginStuff"></div>
+    <header id="header-top"></header>
+
+            <button id="log-sign" onclick="window.location.href='../other-web-pages/login.html'">Login</button>
+        <button id="log-sign" onclick="window.location.href='../other-web-pages/sign-up.html'">Sign-Up</button>
+
+    <main>
+        <div id="m1" >
+        </div>
+
+<!--        <div id="trobot"></div> -->
+<!--        <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=dlbajsnaps3pu0u7cq7hqdeu8g%40group.calendar.google.com&amp;color=%2329527A&amp;ctz=America%2FDenver" style="border-width:0" width="700" height="350" frameborder="0" scrolling="no"></iframe>-->
+    </main>
+    <div id="google-reviews"></div>
+
+<link rel="stylesheet" href="https://cdn.rawgit.com/stevenmonson/googleReviews/master/google-places.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.rawgit.com/stevenmonson/googleReviews/6e8f0d79/google-places.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDeivU57j-macv2fXXgbhKGM6cqMLmnAFI&signed_in=true&libraries=places"></script>
+<!--FIREBASE CODE STUFF-->
+<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCNX5uZJ_tJPgQc1L2zIcgKvYGAOPFclWY",
+    authDomain: "dr-vinyl-backend.firebaseapp.com",
+    databaseURL: "https://dr-vinyl-backend.firebaseio.com",
+    projectId: "dr-vinyl-backend",
+    storageBucket: "",
+    messagingSenderId: "517474149114"
+  };
+  firebase.initializeApp(config);
+</script>    
+    
+<script>
+jQuery(document).ready(function( $ ) {
+   $("#google-reviews").googlePlaces({
+        placeId: 'ChIJp2QxV_sJVFMR1DEp1x_16F8' //Find placeID @: https://developers.google.com/places/place-id
+      , render: ['reviews']
+      , min_rating: 4
+      , max_rows:4
+   });
+});
+</script>
+        <script>
+function checkStuff(){
+//    if localStorage.email != "" 
+        document.getElementById("loginStuff").innerHTML = "Hello, " + localStorage.email;
+//    alert(localStorage.email);
+    //}
+}
+</script>
+<!--
+        <a href="/final-project/other-web-pages/game-info-page.html"><img alt="temp" src="/images/temp-pictures/temp3.jpg"></a>
+   </div>
+        <div id="m2">
+        <a href="/final-project/other-web-pages/game-info-page.html"><img alt="temp" src="/images/temp-pictures/temp4.png"></a>
+        <a href="/final-project/other-web-pages/game-info-page.html"><img alt="temp" src="/images/temp-pictures/temp5.png"></a>
+        <a href="/final-project/other-web-pages/game-info-page.html"><img alt="temp" src="/images/temp-pictures/temp6.jfif"></a>
+        </div>
+</main>
+-->
+    
+    
+    
+        <footer id = "footer-bottom"></footer>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Best placed at bottom of page before closing "body" tag -->
+<!--
+<script type="text/javascript" defer src="//www.testimonialrobot.com/ver/latest/trobot-js.php?add=true&id=XXXXX&c=222&b=e8e8e8&d=true&st=1&t=r">
+</script>
+-->
+      <script src="../javascript/modules.js"></script>
+<!--    <script src="/"></script>-->
+</body>
+
+</html>
