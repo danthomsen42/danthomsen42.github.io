@@ -131,13 +131,15 @@ img[alt="my-picture"] {
 }
 #log-sign {
     background-color: #6666ff;
-    width: 10%;
+    width: 110%;
     height: 150px;
     border: none;
     color: white;
     padding: 15px 32px;
+    margin-left: 5%;
     text-align: center;
     cursor: pointer;
+/*    display: inline-flex;*/
     /*    text-decoration: none;*/
     /*    display: table-column;*/
     font-size: 16px;
