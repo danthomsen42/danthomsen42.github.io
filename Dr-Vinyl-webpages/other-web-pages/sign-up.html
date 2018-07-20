@@ -12,8 +12,8 @@
     <header id="header-top"></header>
 
     <main>
-                <form onsubmit="return compare(this);">
-        <h5 style="color: black">Sign Up</h5>
+                <form onbeforeunload="return valida(this);">
+        <h2 style="color: black">Sign Up</h2>
 
             <input type="text" placeholder="What is your name?" id="SUname">
             <div id="black">
@@ -36,30 +36,36 @@
                     // document.getElementById("result").innerHTML = localStorage.getItem("email");
                 }
 
-                function compare(form) {
+                function valida() {
                     var LE = document.getElementById("SUemail").value;
                     var SE = document.getElementById("COemail").value;
                     var LP = document.getElementById("SUpassword").value;
                     var SP = document.getElementById("COpassword").value;
                     var validE = (LE == SE);
                     var validP = (LP == SP);
-                    
-                    if (!validE) {
+                    var v = true;
+                    if (LE != SE) {
                         alert("Email does not match")
                         form.SUemail.focus();
+                        v = false;
                     }
-                    if (!validP) {
+                    else if (LP != SP) {
                         alert("Password does not match")
                         form.SUpassword.focus();
+                        v = false;
                     }
+                    else{
+                        v = true;
+                    }
+                    return v;
                     //if (LE == " ") form.SUemail.focus();
                     //if (LP == " ") form.SUpassword.focus();
-                    return false;
+//                    return false;
                 }
             </script>
         </form>
     </main>
-    <footer id="footer-bottom"></footer>
+    <footer id="footer-bottom" style="position:relative; bottom:1;"></footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="../javascript/modules.js"></script>
     <!--    <script src="/"></script>-->
