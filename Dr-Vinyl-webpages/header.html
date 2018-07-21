@@ -1,85 +1,123 @@
-<h2 id = "header-name"><div id = "topborder"><img id = "logo" src="../logo.png" alt="temp"></div></h2>
+<h2 id="header-name">
+    <div id="topborder"><img id="logo" src="../logo.png" alt="temp">
+        <div id="lincolns" style="float: right; padding-top: 5%; padding-right: 1%;">
+            <a href="login.html">Login?</a> /
+            <a href="sign-up.html">Sign-Up?</a>
+            <!--                <div id="loginStuff" style="position: absolute; padding-top: .2%;"></div>-->
+        </div>
+    </div>
+</h2>
 
 <!--<iframe id="loginStuff" onload="checkStuff()"></iframe>-->
 
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 
 
 <div class="tabs">
-    
-   <div class="tab" id="home">
-       <input type="radio" id="tab-1" name="tab-group-1" checked>
-                              <script>
-    if(window.location.href.indexOf("index") > -1){
-       //alert("Alert: Desktop!");
-        document.getElementById("home").style.background = "#fae805";
-        document.getElementById("home").style.color = "black";
-        document.getElementById("tab-1").style.a = "black";
-        document.getElementsByClassName("homeblack").style.color = "black";
-        document.getElementById("hope").style.color = "black";
-        document.querySelector('a.homeblack').style.color="black";
-    } </script>
-       <label for="tab-1" id="hope"><a id="tab-link" class="homeblack" href="../other-web-pages/index.html" style="font-family: Arial, Helvetica, sans-serif; font-size: 20px;">Home</a></label>
 
-<!--
+    <div class="tab" id="home">
+        <input type="radio" id="tab-1" name="tab-group-1" checked>
+        <script>
+            if (window.location.href.indexOf("index") > -1) {
+                //alert("Alert: Desktop!");
+                document.getElementById("home").style.background = "#fae805";
+                document.getElementById("home").style.color = "black";
+                document.getElementById("tab-1").style.a = "black";
+                document.getElementsByClassName("homeblack").style.color = "black";
+                document.getElementById("hope").style.color = "black";
+                document.querySelector('a.homeblack').style.color = "black";
+                document.getElementById('lincolns').style.visibility = "visible";
+            }
+
+
+            function checkStuff() {
+                //    if localStorage.email != "" 
+                document.getElementById("loginStuff").innerHTML = "Hello, " + localStorage.email;
+                //    alert(localStorage.email);
+                //}
+            }
+
+        </script>
+        <label for="tab-1" id="hope"><a id="tab-link" class="homeblack" href="../other-web-pages/index.html" style="font-family: Arial, Helvetica, sans-serif; font-size: 20px;">Home</a></label>
+
+        <!--
        <div class="content">
            stuff
        </div> 
 -->
-   </div>
-    
-   <div class="tab" id="games">
-       <input type="radio" id="tab-2" name="tab-group-1">
-                       <script>
-    if(window.location.href.indexOf("games") > -1){
-       //alert("Alert: Desktop!");
-        document.getElementById("games").style.background = "#fae805";
-        document.getElementById("games").style.color = "black";
-    } </script>
-       <label for="tab-2"><a id="tab-link" href="../other-web-pages/games-page.html" style="font-family: Arial, Helvetica, sans-serif; font-size: 20px;">Schedule</a></label>
-   </div>
-    
-    <div class="tab" id="about">
-       <input type="radio" id="tab-3" name="tab-group-1">
-                <script>
-    if(window.location.href.indexOf("about") > -1){
-       //alert("Alert: Desktop!");
-        document.getElementById("about").style.background = "#fae805";
-        document.getElementById("about").style.color = "black";
-    } </script>
-       <label for="tab-3"><a id="tab-link" href="../other-web-pages/about.html" style="font-family: Arial, Helvetica, sans-serif; font-size: 20px;">About us</a></label>
+    </div>
 
-   </div>
-    <div class="tab" id= "contact">
-       <input type="radio" id="tab-4" name="tab-group-1">
+    <div class="tab" id="games">
+        <input type="radio" id="tab-2" name="tab-group-1">
         <script>
-    if(window.location.href.indexOf("services") > -1){
-       //alert("Alert: Desktop!");
-        document.getElementById("contact").style.background = "#fae805";
-    } </script>
+            if (window.location.href.indexOf("games") > -1) {
+                //alert("Alert: Desktop!");
+                document.getElementById("games").style.background = "#fae805";
+                document.getElementById("games").style.color = "black";
+                document.getElementById('lincolns').style.visibility = "hidden";
+            }
+
+            if (window.location.href.indexOf("contact") > -1) {
+                document.getElementById('lincolns').style.visibility = "hidden";
+            }
+            if (window.location.href.indexOf("businessOps") > -1) {
+                document.getElementById('lincolns').style.visibility = "hidden";
+            }
+
+        </script>
+        <label for="tab-2"><a id="tab-link" href="../other-web-pages/games-page.html" style="font-family: Arial, Helvetica, sans-serif; font-size: 20px;">Schedule</a></label>
+    </div>
+
+    <div class="tab" id="about">
+        <input type="radio" id="tab-3" name="tab-group-1">
+        <script>
+            if (window.location.href.indexOf("about") > -1) {
+                //alert("Alert: Desktop!");
+                document.getElementById("about").style.background = "#fae805";
+                document.getElementById("about").style.color = "black";
+                document.getElementById('lincolns').style.visibility = "hidden";
+            }
+
+        </script>
+        <label for="tab-3"><a id="tab-link" href="../other-web-pages/about.html" style="font-family: Arial, Helvetica, sans-serif; font-size: 20px;">About us</a></label>
+
+    </div>
+    <div class="tab" id="contact">
+        <input type="radio" id="tab-4" name="tab-group-1">
+        <script>
+            if (window.location.href.indexOf("services") > -1) {
+                //alert("Alert: Desktop!");
+                document.getElementById("contact").style.background = "#fae805";
+                document.getElementById('lincolns').style.visibility = "hidden";
+            }
+
+        </script>
         <label for="tab-4"><a id="tab-link" href="../other-web-pages/services.html" style="font-family: Arial, Helvetica, sans-serif; font-size: 20px;">Our Services</a></label>
- 
-   </div>
-        <div class="tab" id= "reviews">
-       <input type="radio" id="tab-5" name="tab-group-1">
+
+    </div>
+    <div class="tab" id="reviews">
+        <input type="radio" id="tab-5" name="tab-group-1">
         <script>
-    if(window.location.href.indexOf("reviews") > -1){
-       //alert("Alert: Desktop!");
-        document.getElementById("reviews").style.background = "#fae805";
-    } </script>
+            if (window.location.href.indexOf("reviews") > -1) {
+                //alert("Alert: Desktop!");
+                document.getElementById("reviews").style.background = "#fae805";
+                document.getElementById('lincolns').style.visibility = "hidden";
+            }
+
+        </script>
         <label for="tab-5"><a id="tab-link" href="../other-web-pages/reviews.html" style="font-family: Arial, Helvetica, sans-serif; font-size: 20px;">Reviews</a></label>
- 
-   </div>
-    
-<!--
+
+    </div>
+
+    <!--
     <div class="tab">
        <input type="radio" id="tab-5" name="tab-group-1">
        <label for="tab-5"><a id="tab-link" href="/homework-links.html">Homework</a></label>
  
    </div>
 -->
-    
-   
-    
+
+
+
 </div>

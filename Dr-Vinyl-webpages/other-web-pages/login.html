@@ -6,21 +6,24 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" type="text/css" href="../css/main.css" media="screen">
 </head>
-<body onload="checkStuff()">
+<body> 
+<!--     onload="checkStuff()"-->
 <!--    <div id="loginStuff"></div>-->
     <header id="header-top"></header>
 
-    <main><form>
+    <main><form action="games-page.html">
         <h2>Log In</h2>
         
 <input type="email" placeholder="E-mail" id="LIemail">
         <br>
-        <input type="password" placeholder="Password" id="LIpassword"><br>
-        <button type="submit" id="LIlogin" onclick="store(); window.location.href='../other-web-pages/games-page.html'" style="width: 25%;">Login</button>
+        <input type="password" placeholder="Password" id="LIpassword" pattern=".{8,}" required title ="8 characters minimum"><br>
+        <button type="submit" id="LIlogin" onclick="store();" style="width: 25%;">Login</button>
         <script>
+//             window.location.href='../other-web-pages/games-page.html'
             function store(){
             var x = document.getElementById("LIemail").value;
             localStorage.email = document.getElementById("LIemail").value;
+                return true;
             // document.getElementById("result").innerHTML = localStorage.getItem("email");
             }
             </script>    

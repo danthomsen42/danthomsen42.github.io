@@ -8,7 +8,7 @@
 </head>
 
 <body onload="checkStuff()">
-    <div id="loginStuff" style="position: absolute; padding-top: .2%;"></div>
+<!--    <div id="loginStuff" style="position: absolute; padding-top: .2%;"></div>-->
     <header id="header-top"></header>
     <h2></h2>
     <main>
@@ -55,9 +55,11 @@
     <script>
         function checkStuff() {
             //if localStorage.email == true {
+            if localStorage.email != null{
             document.getElementById("loginStuff").innerHTML = "Hello, " + localStorage.email;
             //    alert(localStorage.email);
             //}
+            }
         }
     </script>
 </body>
