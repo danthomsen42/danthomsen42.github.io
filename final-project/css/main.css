@@ -6,9 +6,11 @@ body {
     padding: 0px;
     margin: 0px;
     background-image: url("/images/abstract-art-blur-bright-373543.jpg");
+/*    https://www.pexels.com/photo/abstract-art-blur-bright-373543/*/
 /*     background-color: yellowgreen;*/
     color: white;
     height: 100%;
+    background: rgba(0, 0, 0, 0.6);
 }
 
 img[alt="my-picture"]{
