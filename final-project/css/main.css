@@ -10,7 +10,7 @@ body {
 /*     background-color: yellowgreen;*/
     color: white;
     height: 100%;
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.9);
 }
 
 img[alt="my-picture"]{
